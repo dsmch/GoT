@@ -12,9 +12,13 @@ body{
 }
 
 h1{
-    color: black;
+    color: rgb(134, 0, 0);
     text-align: center;
     padding: 70px;
+    transition: all 300ms;
+}
+h1:hover {
+    transform: scale(1.15);
 }
 
 a{
@@ -36,6 +40,14 @@ ul li {
     left: 0;
     height: 70px;
 }
+
+img {
+    transition: all 300ms;
+}
+img:hover {
+    transform: scale(1.15)
+}
+
 
 /*------NAV/HEADER-------*/
 
@@ -415,10 +427,6 @@ hr {
 }
 
 
-.animeaciones {
-    font-size:20px
-}
 
-.aiaia {
-    color: black;
-}
+
+
