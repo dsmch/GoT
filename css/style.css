@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  oldlace;
+    font-size: 16px;
+    padding: 90px 20px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    padding: 70px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    background-color: maroon;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    height: 70px;
+}
+
+/*------NAV/HEADER-------*/
+
+.toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+.header nav {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+    height: 60px;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li{
+    padding: 10px;
+}
+
+a:hover{
+    border-bottom: 2px solid #fff;
+    padding: 6px;
+}
+
+.header nav ul li {
+    flex: 1;
+    margin-left: 20px;
+        font-size: 20px;
+        margin: 0 10px;
+        line-height: 80px;
+        text-transform: uppercase;
+    
+}
+
+
+/*-------MAIN--------*/
+
+.all__part img {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+
+
+.all__part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 70px 0;
+    border: 1px solid black;
+}
+
+
+.all__part p {
+    color: black;
+    padding: 10px;
+}
+
+.video__section {
+    position: fixed;
+    top: 18%;
+    right: 16%;
+    transform: translateY(100%);
+    width: 345px;
+    height: 200px;
+}
+
+
+.all__part-l {
+    display: grid;
+    gap: 25px;
+    margin: 70px 0;
+    border: 1px solid black;
+}
+
+.all__part-l img {
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.all__part-l p {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.ul__libros{
+    font-size: 30px;
+}
+
+.books__description {
+    display: grid;
+    grid-template-columns: 10% 25% 50%;
+}
+
+.books__description h2 {
+    text-align: center;
+    display: inline-flex;
+}
+
+.books__description img {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+}
+
+.p {
+    padding: 20px;
+    margin: 20px;
+}
+
+.all__part-s > div {
+    display: flex;
+    align-items: center;
+}
+
+.all__part-s div .parrafo__all {
+    margin: 40px;
+}
+
+.all__part-ss > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.all__part-ss div .parrafo__all {
+    margin: 40px;
+}
+
+.all__part-sss > div {
+    display: flex;
+    align-items: center;
+}
+
+.all__part-sss div .parrafo__all {
+    margin: 40px;
+}
+
+.all__part-ssss > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.all__part-ssss div .parrafo__all {
+    margin: 40px;
+}
+
+.all__part-sssss > div {
+    display: flex;
+    align-items: center;
+}
+
+.all__part-sssss div .parrafo__all {
+    margin: 40px;
+}
+
+.all__part-ssssss > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.all__part-ssssss div .parrafo__all {
+    margin: 40px;
+}
+
+
+.h3 {
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    border: 2px solid black;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.main img {
+    width: 500px;
+    height: auto;
+}
+
+
+hr {
+    padding: 10px;
+    margin: 10px;
+}
+
+.all__part-p {
+    display: flex;
+    font-size: 15px;
+}
+
+.img__elenco {
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+/*-------CONTACTO----- */
+
+.body {
+    background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: auto 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.conteiner {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.h1h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact > * {
+    padding: 2em;
+}
+
+.contact__form {
+    background: #222;
+}
+
+.contact__form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__form label {
+    display:block;
+}
+
+.contact__form form p {
+    padding: 1em;
+    margin: 0;
+}
+
+.contact__form form .pp {
+    grid-column: 1 / 3;
+}
+
+.contact__form form button,
+.contact__form form input,
+.contact__form form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact__form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+.contac__info {
+    background-color: #000;
+}
+
+.contact__info h4, .contact__info ul, .contact__info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+/*---------FOOTER---------*/
+
+
+.footer {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.social__redes {
+    margin: 50px;
+}
+
+.social__redes p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.social__redes div i {
+    width: 100px;
+    height: 50px;
+}
+
+
+.footer__links {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer__container ul {
+    margin: 0 auto;
+}
+
+.footer__links ul li {
+    line-height: 3.8;
+    font-size: 15px;
+}
+
+
+/*------MEDIA QUERIES------*/
+
+@media(min-width: 700px) {
+    .body {
+        padding: 0 4em;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact > * {
+        padding: 2em;
+    }
+    .contact__info h4,
+    .contact__info ul,
+    .contact__info p {
+        text-align: left;
+    }
+}
+
+
